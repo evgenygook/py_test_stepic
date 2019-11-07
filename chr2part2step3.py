@@ -15,7 +15,7 @@ try:
 
 	dropdown = br.find_element_by_id('dropdown')
 	button = br.find_element_by_css_selector('button.btn')
-#раздаю
+#раздаюs
 	dropdown.click()
 	summ=str(int(num1)+int(num2))
 
