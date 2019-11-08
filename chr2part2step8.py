@@ -4,8 +4,6 @@ import math
 from selenium.webdriver.support.ui import Select #Подключил поиск по селекту
 import os #подключил возможность работать с файлами
 
-
-#file_path = os.path.join(current_dir, 'file.txt')
 try:
 	br = webdriver.Chrome();
 	lk ='http://suninjuly.github.io/file_input.html'
@@ -26,7 +24,6 @@ try:
 	email.send_keys("test@my.py")
 	file.send_keys(file_path)
 	btn.click()
-
 
 finally:
 	time.sleep(10)
